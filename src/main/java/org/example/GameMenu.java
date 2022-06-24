@@ -30,7 +30,8 @@ public class GameMenu {
         String inputNameOfTheFirstPlayer = in.nextLine();
         System.out.print("Enter the name of 2 player: ");
         String inputNameOfTheSecondPlayer = in.nextLine();
-        GameLogicOfPlayingWithAFriend.Test(inputNameOfTheFirstPlayer, inputNameOfTheSecondPlayer);
+        System.out.println();
+        GameLogicOfPlayingWithAFriend.GameLogic(inputNameOfTheFirstPlayer, inputNameOfTheSecondPlayer);
 
         in.close();
     }
